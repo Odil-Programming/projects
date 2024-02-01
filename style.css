@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 105px;
+    height: 40px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 28px;
+    background: #2BD0D0;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 197px;
+    height: 56px;
+}
+
+p {
+    margin-bottom: 38px;
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+}
+
+h1 {
+    color: black;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    width: 450px;
+    border-bottom: 38px;
+    margin-bottom: 5px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input>button {
+    color: #FFF;
+    width: 188px;
+    height: 64px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: #2BD0D0;
+}
+
+
+
+.input {
+    width: 1110px;
+    height: 168px;
+    border-radius: 10px;
+    background: #3A3054;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+form {
+    width: 769px;
+    height: 64px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #34313D;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 180% */
+    letter-spacing: 0.15px;
+}
+
+.third-section>p {
+    width: 540px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+.third-section {
+    gap: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    background-color: brown;
+    position: relative;
+    top: -60px;
+    z-index: -1;
+}
+
+footer {
+    width: 100%;
+    height: 180.202px;
+    display: flex;
+    background-color: black;
+    
+}
+
+.footer-box {
+    width: 100%;
+    height: 150.202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38.96px;
+}
